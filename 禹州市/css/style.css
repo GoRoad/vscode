@@ -1,5 +1,9 @@
 /* 字体 */
 
+body {
+    background-image: url(../images/bj.jpg)
+}
+
 * {
     font-family: "microsoft yahei", Arial, Helvetica, sans-serif;
 }
