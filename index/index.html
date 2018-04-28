@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>G_road</title>
+    <link rel="icon" type="image/x-icon" href="boke.jpg">
+    <style type="text/css">
+        ul {
+            height: 300px;
+            list-style: none;
+            /*列表样式：无*/
+            margin: 200px auto;
+            width: 700px;
+        }
+        
+        li {
+            background: white;
+            float: left;
+            height: 200px;
+            margin: 0 20px 20px 0;
+            width: 200px;
+            -webkit-transition: .5s;
+            -moz-transition: .5s;
+            -ms-transition: .5s;
+            -o-transition: .5s;
+            transition: .5s;
+            /*属性渐变 适应不同浏览器*/
+        }
+        
+        ul:hover li {
+            box-shadow: 0 0 15px 5px red;
+            opacity: .25;
+            /*不透明级别*/
+            -webkit-transform: scale(.8);
+            -moz-transform: scale(.8);
+            -ms-transform: scale(.8);
+            -o-transform: scale(.8);
+            transform: scale(.8);
+        }
+        
+        ul li:hover {
+            box-shadow: none;
+            /*添加一个或多个阴影*/
+            opacity: 1;
+            -webkit-transform: scale(1.2);
+            -moz-transform: scale(1.2);
+            -ms-transform: scale(1.2);
+            -o-transform: scale(1.2);
+            transform: scale(1.2);
+        }
+        
+        img {
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+    <base target="_blank" />
+</head>
+
+<body>
+    <ul>
+        <li>
+            <a href="http://www.guohaoyang.top/wordpress"><img src="boke.jpg"></a>
+        </li>
+        <li>
+            <a href="http://www.baidu.com"><img src="baidu.jpg"></a>
+        </li>
+        <li>
+            <a href="https://www.csdn.net/"><img src="csdn.jpg"></a>
+        </li>
+        <li>
+            <a href="https://github.com/"><img src="github.jpg"></a>
+        </li>
+        <li>
+            <a href="https://www.w3cschool.cn"><img src="w3cschool.jpg"></a>
+        </li>
+        <li>
+            <a href="http://study.163.com/"><img src="wangyiyunketang.jpg"></a>
+        </li>
+
+    </ul>
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+/* 字体 */
+
+* {
+    font-family: "microsoft yahei", Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 400;
+}
+
+.time {
+    text-align: center;
+}
+
+div.jianjie {
+    width: 960px;
+    margin: 0 auto;
+}
+
+img,
+.img-top {
+    width: 960px;
+    display: block;
+    margin: auto;
+}
+
+.img-yd {
+    width: 480px;
+    display: block;
+    margin: auto;
+}
+
+p {
+    /* 字号大小 */
+    font-size: 16px;
+    /* 行高 */
+    line-height: 28px;
+    /* 段落缩进2px */
+    text-indent: 2em;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: orange;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a:active {
+    color: green;
+}
+
+p>em {
+    /* 字体不倾斜 */
+    font-style: normal;
+    color: skyblue;
+}
+
+p>span,
+span {
+    text-align: center;
+    display: block;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.center {
+    text-align: center;
+}
+
+p>em>a {
+    text-decoration: none;
+    color: steelblue;
+}
