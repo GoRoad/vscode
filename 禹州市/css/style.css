@@ -1,7 +1,10 @@
 /* 字体 */
 
 body {
-    background-image: url(../images/bj.jpg)
+    background-image: url(../images/bj.jpg);
+    filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
 }
 
 * {
